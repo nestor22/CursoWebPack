@@ -20,13 +20,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/styles/vars.styl":
+/*!******************************!*\
+  !*** ./src/styles/vars.styl ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://js-portfolio/./src/styles/vars.styl?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _templates_Template_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./templates/Template.js */ \"./src/templates/Template.js\");\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n\n\n\n(async function App() {\n  const main =  false || document.getElementById('main');\n  main.innerHTML = await (0,_templates_Template_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n})();\n\n\n//# sourceURL=webpack://js-portfolio/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _templates_Template_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./templates/Template.js */ \"./src/templates/Template.js\");\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n/* harmony import */ var _styles_vars_styl__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/vars.styl */ \"./src/styles/vars.styl\");\n\n\n\n\n(async function App() {\n  const main =  false || document.getElementById('main');\n  main.innerHTML = await (0,_templates_Template_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n})();\n\n\n//# sourceURL=webpack://js-portfolio/./src/index.js?");
 
 /***/ }),
 
