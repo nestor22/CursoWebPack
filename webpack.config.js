@@ -6,7 +6,16 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.js',
     },
-    resolve:{
+    resolve: {
         extensions: ['.js']
+    },
+    module: {
+        rules: [{
+            test: /\.m?js^$/,
+            exclude: /node_modules/,
+            use: {
+                loader: 'babel-loader'
+            }
+        }]
     }
 }
