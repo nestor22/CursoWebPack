@@ -20,7 +20,6 @@ module.exports = {
         '@templates':path.resolve(__dirname, 'src/templates/'),
         '@images':path.resolve(__dirname, 'src/images/'),
         '@styles':path.resolve(__dirname, 'src/styles/'),
-        
     }
   },
   module: {
@@ -52,7 +51,7 @@ module.exports = {
             mimetype: "application/font-woff",
             name: "[name].[contenthash].[ext]",
             outputPath: "./assets/fonts/",
-            publicPath: "./assets/fonts/",
+            publicPath: "../assets/fonts/",
             esModule: false,
           },
         }
