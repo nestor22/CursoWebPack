@@ -25,6 +25,10 @@ module.exports = {
         test: /\.css|\.styl$/i,
         use: [MiniCssExtractPlugin.loader, "css-loader", "stylus-loader"],
       },
+      {
+          test:/\.png/,
+          type: 'asset/resource'
+      }
     ],
   },
   plugins: [
@@ -35,12 +39,12 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
     new CopyPlugin({
-        patterns:[{
-            from: path.resolve(__dirname, 'src', 'assets/images'),
-            to: "assets/images"
-
-        }]
+      patterns: [
+        {
+          from: path.resolve(__dirname, "src", "assets/images"),
+          to: "assets/images",
+        },
+      ],
     }),
-
   ],
 };
