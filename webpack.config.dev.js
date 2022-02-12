@@ -80,6 +80,6 @@ module.exports = {
     contentBase: path.joint(__dirname, 'dist'),
     compress: true,
     historyApiFallback: true,
-    port: 5500
+    port: 3300
   }
 }
